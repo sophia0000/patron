@@ -1,0 +1,252 @@
+@charset 'utf-8';
+@font-face {
+         font-family:'gotham_bold';
+    src:url('../fonts/GothamBold.eot');
+   src:url('../fonts/GothamBold.woff')format('woff'); src:url('../fonts/GothamBold.ttf') format('truetype');
+}
+
+@font-face{
+ font-family:'trajan';
+ src:url('../fonts/Trajan.eot');
+src:url('../fonts/Trajan.woff')format('woff'); src:url('../fonts/Trajan.ttf') format('truetype'); 
+    
+}
+
+@font-face{
+ font-family:'trajan_bold';
+ src:url('../fonts/TrajanBold.eot');
+src:url('../fonts/TrajanBold.woff')format('woff'); src:url('../fonts/TrajanBold.ttf') format('truetype'); 
+    
+}
+
+
+
+
+
+
+
+
+*{margin:0; padding:0;}
+a{text-decoration:none; color:#e3edf0;}
+ul li{list-style:none;}
+body{background-color:#000000; color:#e3edf0;
+    width:100%;
+max-width:480px;
+min-width:320px;
+font-family:'georgia','verdana','tahoma','arial';
+background-image:url(../images/mob/mob_agave_bg.jpg),url(../images/mob/mob_lime_bg.jpg);
+background-repeat:no-repeat;
+background-position:1% 1150px,102% 750px;
+    
+    
+}
+
+#wrap{
+/*480-100px (marginx2)=380/480*100=79.5
+    80%*/
+    width:80%;
+    margin:0 auto; /*10% each*/
+    overflow:hidden;
+   
+}
+
+
+#wrap header{
+    width:100%;
+    height:178px; 
+}
+#wrap header h1 {
+       text-indent:-50000px;
+}
+
+#wrap header h1 a{
+    display:block;
+    width:100%;
+    height:178px;
+     background-image:url(../images/mob/mob_logo.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#wrap .intro{
+    width:100%;
+}
+
+#wrap .intro .title{
+    width:100%;
+    
+}
+#wrap .intro .title img{
+width:100%;
+    display:inline-block;
+}
+
+#wrap .intro .main_image{
+
+}
+#wrap .intro .main_image{
+    position:relative;
+    top:-100px; left:0;
+    width:100%;
+}
+
+#wrap #menu {
+    width:100%;
+position:fixed;
+    bottom:00; left:00;
+    background-color:rgba(0,0,0,0.85);
+    height:100px;
+}
+
+#wrap #menu ul li{
+    float:left;
+    width:22%;
+    margin-right:2.4%;
+ 
+}
+
+#wrap #menu ul li:nth-of-type(1){margin-left:2.4%;}
+
+#wrap #menu ul li a{
+    display:block;
+    text-align:center;
+    width:100%;
+    height:90px;
+font-family:'gotham_bold';
+    box-sizing:border-box;
+}
+
+#wrap #menu ul li a span{
+    display:block;
+    width:100%;
+    height:48px;
+    padding-bottom:25px;
+background-size:250%;
+}
+
+#wrap #menu ul li:nth-of-type(1)
+a span{
+    background-image:url(../images/mob/menu_sprite.png);
+    background-position:-175px -1px;
+
+}
+
+#wrap #menu ul li:nth-of-type(2)
+a span{
+    background-image:url(../images/mob/menu_sprite.png);
+    background-position:2px -1px;
+
+}
+
+#wrap #menu ul li:nth-of-type(3)
+a span{
+    background-image:url(../images/mob/menu_sprite.png);
+    background-position:5px -78px;
+
+}
+
+#wrap #menu ul li:nth-of-type(4)
+a span{
+    background-image:url(../images/mob/menu_sprite.png);
+    background-position:-95px -1px;
+
+}
+#wrap section.texts{
+    margin-top:100px;
+}
+
+#wrap section.texts h2{
+    font-family:'trajan_bold';
+    text-transform:uppercase;
+    text-align:center;
+    font-size:24px;
+    
+}
+
+#wrap section.texts > p{
+    margin-top:40px;
+    font-family:'trajan';
+    text-align: justify;
+    font-size:18px;
+    
+}
+
+#wrap section.texts #line{
+    display:block;
+  width:75%;
+    border:1px solid #ffffff;
+    margin-top:112px;
+    margin-left:90px;
+    
+}
+
+#wrap section.texts #elements{
+    width:100%;
+height:300px;
+}
+#wrap section.texts ul {
+    width:100%;
+    margin-top:60px;
+}
+#wrap section.texts ul li{
+    float:left;
+ width:22%;
+    margin-right:2.4%;
+    text-align:center;
+}
+
+#wrap section.texts ul li:nth-of-type(1){
+    margin-left:2.4%;
+}
+
+#wrap #elements ul li .symbol{
+    background-image:url('../images/mob/menu_sprite.png');
+    width:50%;
+    height:40px;
+margin:15px auto 15px;
+    display:block;
+}
+
+#wrap #elements ul li:nth-of-type(1) .symbol{
+    background-position:-5px -146px;
+}
+#wrap #elements ul li:nth-of-type(2) .symbol{
+    background-position:-172px -78px;
+}
+
+#wrap #elements ul li:nth-of-type(3) .symbol{
+    background-position:-90px -78px;
+}
+#wrap #elements ul li:nth-of-type(4) .symbol{
+    background-position: -57px -146px;
+}
+
+#wrap #elements ul li p{
+    font-family:'trajan';
+    font-size:15px;
+    
+}
+#wrap #elements ul li .detail{
+    font-family:'georgia';
+    font-style:italic;
+    text-align:center;
+    font-size:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

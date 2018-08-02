@@ -1,0 +1,82 @@
+@charset 'utf-8';
+
+*{margin:0; padding:0;}
+a{text-decoration:none;
+color:black;}
+
+img{vertical-align: top;}
+
+/******RESET DONE********/
+
+
+
+
+/**********MOBILE FIRST**********/
+body{
+    max-width:480px;
+    min-width:320px;   
+    overflow:hidden;
+   
+}
+#wrap{
+    width:100%;
+    margin:0 auto;
+    
+}
+
+#wrap .mob_button{
+    width:100%;
+    
+}
+
+#wrap .mob_button a{
+    width:100%;
+}
+#wrap .mob_button a img{
+    width:100%;
+    
+    
+}
+#pc_ani1{display:none;}
+#curious {display:none;}
+
+
+
+
+/******TABLET 800px***********/
+
+
+/********PC1600px*********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

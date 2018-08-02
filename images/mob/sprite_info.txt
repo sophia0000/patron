@@ -1,0 +1,46 @@
+.bg-mob_about {
+    width: 64px; height: 48px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-mob_aroma {
+    width: 41px; height: 47px;
+    background: url('css_sprites.png') -174px -78px;
+}
+
+x
+.bg-mob_cocktail {
+    width: 59px; height: 48px;
+    background: url('css_sprites.png') -10px -78px;
+}
+
+x
+.bg-mob_color {
+    width: 33px; height: 48px;
+    background: url('css_sprites.png') -10px -146px;
+}
+
+x
+.bg-mob_events {
+    width: 60px; height: 48px;
+    background: url('css_sprites.png') -94px -10px;
+}
+
+x
+.bg-mob_finish {
+    width: 30px; height: 47px;
+    background: url('css_sprites.png') -63px -146px;
+}
+
+x
+.bg-mob_menu {
+    width: 44px; height: 48px;
+    background: url('css_sprites.png') -174px -10px;
+}
+
+x
+.bg-mob_taste {
+    width: 48px; height: 47px;
+    background: url('css_sprites.png') -89px -78px;
+}
